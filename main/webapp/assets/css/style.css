@@ -1,0 +1,75 @@
+@charset "UTF-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#121212;
+    color:white;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+}
+
+.card{
+    background:#1e1e1e;
+    border-radius:12px;
+    padding:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.4);
+}
+
+input{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    margin-top:10px;
+    background:#2c2c2c;
+    color:white;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#8e44ad;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+button:hover{
+    background:#9b59b6;
+}
+
+a{
+    color:#bb86fc;
+    text-decoration:none;
+}
+.player{
+    position:fixed;
+    bottom:0;
+    left:220px;
+    right:0;
+
+    background:#181818;
+
+    padding:15px;
+
+    display:flex;
+    align-items:center;
+    gap:20px;
+
+    border-top:1px solid #333;
+}
+
+.player audio{
+    flex:1;
+}
